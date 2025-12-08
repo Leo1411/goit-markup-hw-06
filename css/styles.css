@@ -84,11 +84,13 @@ body {
 }
 
 .nav-list a {
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding: 24px 0;
 }
 
 .nav-list a:hover,
@@ -106,6 +108,7 @@ body {
 }
 
 .address-list a {
+    display: block;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -148,7 +151,6 @@ body {
     letter-spacing: 0.04em;
     padding: 16px 32px;
     border-radius: 4px;
-    border: 1px solid transparent;
 }
 
 .hero-btn:hover,
@@ -218,7 +220,7 @@ body {
 .team-item {
     background-color: #FFFFFF;
     box-shadow: 0px 2px 1px 0px #2E2F4214, 0px 1px 1px 0px #2E2F4229, 0px 1px 6px 0px #2E2F4214;
-    border-radius: 4px;
+    border-radius: 0 0 4px 4px;
     max-width: 264px;
 }
 
