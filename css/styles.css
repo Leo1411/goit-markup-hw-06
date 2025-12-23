@@ -92,7 +92,7 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
     padding: 24px 0;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover,
@@ -131,7 +131,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-list a:hover,
@@ -295,12 +295,14 @@ body {
 }
 
 .social-link {
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
+    justify-content: center;
     border-radius: 50%;
     background-color: #4D5AE5;
-    padding: 12px;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
@@ -326,7 +328,7 @@ body {
 
 .portfolio-item {
     max-width: 360px;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item-info {
@@ -445,12 +447,14 @@ body {
 }
 
 .social-link-footer {
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
+    justify-content: center;
     border-radius: 50%;
     background-color: #4D5AE5;
-    padding: 8px;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-footer {
