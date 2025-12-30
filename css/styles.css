@@ -583,8 +583,9 @@ body {
 .close-btn {
     width: 24px;
     height: 24px;
-    display: block;
+    display: flex;
     align-items: center;
+    justify-content: center;
     border-radius: 50%;
     background-color: #E7E9FC;
     fill: #2E2F42;
