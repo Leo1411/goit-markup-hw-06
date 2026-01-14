@@ -476,6 +476,7 @@
     
     .portfolio-item {
         width: 264px;
+        box-shadow: 0px 2px 1px 0px #2E2F4214, 0px 1px 1px 0px #2E2F4229, 0px 1px 6px 0px #2E2F4214;
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
@@ -503,10 +504,6 @@
         transform: translateY(0);
     }
     
-    .portfolio-item:hover {
-        box-shadow: 0px 2px 1px 0px #2E2F4214, 0px 1px 1px 0px #2E2F4229, 0px 1px 6px 0px #2E2F4214;
-    }
-    
     .portfolio-description {
         display: flex;
         flex-direction: column;
@@ -515,7 +512,6 @@
         border-left: 1px solid #E7E9FC;
         border-right: 1px solid #E7E9FC;
         border-bottom: 1px solid #E7E9FC;
-        box-shadow: 0px 2px 1px 0px #2E2F4214, 0px 1px 1px 0px #2E2F4229, 0px 1px 6px 0px #2E2F4214;
     }
     
     .portfolio-description-title {
@@ -547,6 +543,10 @@
         }
         .portfolio-item {
             width: 360px;
+            box-shadow: none;
+        }
+        .portfolio-item:hover {
+            box-shadow: 0px 2px 1px 0px #2E2F4214, 0px 1px 1px 0px #2E2F4229, 0px 1px 6px 0px #2E2F4214;
         }
     }
     
@@ -634,10 +634,6 @@
     .social-link-footer:hover,
     .social-link-footer:focus {
         background-color: #31D0AA;
-    }
-    
-    .subscribe-container {
-        margin-left: auto;
     }
     
     .subscribe-title {
@@ -737,7 +733,7 @@
             justify-content: flex-start;
         }
         .subscribe-container {
-            margin-left: 108px;
+            margin-left: 115px;
             width: 100%;
         }
         .subscribe-title {
